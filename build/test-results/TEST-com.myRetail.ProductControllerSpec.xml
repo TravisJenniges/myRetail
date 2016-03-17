@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.myRetail.ProductControllerSpec" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-03-16T23:53:49" hostname="traviss-mbp" time="2.957">
+  <properties/>
+  <testcase name="Test the index action returns the correct model" classname="com.myRetail.ProductControllerSpec" time="2.655"/>
+  <testcase name="Test the create action returns the correct model" classname="com.myRetail.ProductControllerSpec" time="0.071"/>
+  <testcase name="Test the save action correctly persists an instance" classname="com.myRetail.ProductControllerSpec" time="0.157"/>
+  <testcase name="Test that the show action returns the correct model" classname="com.myRetail.ProductControllerSpec" time="0.011"/>
+  <testcase name="Test that the edit action returns the correct model" classname="com.myRetail.ProductControllerSpec" time="0.01"/>
+  <testcase name="Test the update action performs an update on a valid domain instance" classname="com.myRetail.ProductControllerSpec" time="0.031"/>
+  <testcase name="Test that the delete action deletes an instance if it exists" classname="com.myRetail.ProductControllerSpec" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

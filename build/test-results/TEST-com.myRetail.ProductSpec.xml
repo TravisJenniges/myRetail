@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.myRetail.ProductSpec" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-03-16T23:53:56" hostname="traviss-mbp" time="7.761">
+  <properties/>
+  <testcase name="test save and read" classname="com.myRetail.ProductSpec" time="7.729"/>
+  <testcase name="test read and update" classname="com.myRetail.ProductSpec" time="0.032"/>
+  <system-out><![CDATA[Grails application running at http://localhost:8080 in environment: test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
