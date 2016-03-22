@@ -9,11 +9,11 @@ Installation Steps
 2. If you do not already have Grails 3.1.3 installed, please use SDKMan (http://sdkman.io/install.html) to install it by typing sdk install grails 3.1.3 in the terminal.  If you prefer to manually install:       
     a. Download (https://grails.org/download.html) a binary distribution of Grails and extract the resulting zip file to a location of your choice
     b. Set the GRAILS_HOME environment variable to the location where you extracted the zip
-      i. On Unix/Linux based systems this is typically a matter of adding something like the following export GRAILS_HOME=/path/to/grails to your profile
-      ii. On Windows this is typically a matter of setting an environment variable under My Computer/Advanced/Environment Variables
+        i. On Unix/Linux based systems this is typically a matter of adding something like the following export GRAILS_HOME=/path/to/grails to your profile
+        ii. On Windows this is typically a matter of setting an environment variable under My Computer/Advanced/Environment Variables
     c. Then add the bin directory to your PATH variable
-      i. On Unix/Linux based systems this can be done by adding export PATH="$PATH:$GRAILS_HOME/bin" to your profile
-      ii. On Windows this is done by modifying the Path environment variable under My Computer/Advanced/Environment Variables
+        i. On Unix/Linux based systems this can be done by adding export PATH="$PATH:$GRAILS_HOME/bin" to your profile
+        ii. On Windows this is done by modifying the Path environment variable under My Computer/Advanced/Environment Variables
 
 3. If Grails is working correctly you should now be able to type grails -version in the terminal window and see output similar to this: | Grails Version: 3.1.3 | Groovy Version: 2.4.6 | JVM Version: 1.8.0_25
 
