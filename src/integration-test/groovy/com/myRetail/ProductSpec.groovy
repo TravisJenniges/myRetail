@@ -10,8 +10,7 @@ import spock.lang.*
 class ProductSpec extends Specification {
 
     def setup() {
-        new Product(title: 'Test', description: 'test', price: '9.95').save(flush: true)
-        new Product(title: 'Test2', description: 'test2', price: '19.95').save(flush: true)
+        //no need to load data since we do it via bootstrap
     }
 
     def cleanup() {
@@ -19,7 +18,7 @@ class ProductSpec extends Specification {
 
     void "test count"() {
         expect:
-        Product.count() == 2
+        Product.count() == 4 //matches the number of products loaded via bootstrap
     }
 
     void "test read and update"() {
