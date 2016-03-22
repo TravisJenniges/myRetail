@@ -6,7 +6,7 @@ Installation Steps
 
 1. It is assumed you have already installed, as a minimum, a Java Development Kit (JDK) version 1.7 or above.  If you do not, download the appropriate JDK for your operating system, run the installer, and then set up an environment variable called JAVA_HOME pointing to the location of this installation.
 
-2. If you do not already have Grails 3.1.3 installed, please use SDKMan to install it.  If you prefer to manually install:       a. Download (https://grails.org/download.html) a binary distribution of Grails and extract the resulting zip file to a location of your choice
+2. If you do not already have Grails 3.1.3 installed, please use SDKMan (http://sdkman.io/install.html) to install it.  If you prefer to manually install:       a. Download (https://grails.org/download.html) a binary distribution of Grails and extract the resulting zip file to a location of your choice
     b. Set the GRAILS_HOME environment variable to the location where you extracted the zip
       i. On Unix/Linux based systems this is typically a matter of adding something like the following export GRAILS_HOME=/path/to/grails to your profile
       ii. On Windows this is typically a matter of setting an environment variable under My Computer/Advanced/Environment Variables
